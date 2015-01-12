@@ -1,0 +1,5 @@
+# gen-image.rb
+
+Generates a steam-grid sized image using a google image result for "<game name> screenshot" with the title composited over the top.
+
+Check out some samples in the `samples` dir.

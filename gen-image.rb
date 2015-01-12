@@ -23,3 +23,4 @@ text_container = Magick::Image.read("label:#{game}") {
 image = bg.composite(text_container, 10, 10, Magick::OverCompositeOp)
 
 image.display
+image.write("samples/#{game.gsub(' ','.')}.png")
